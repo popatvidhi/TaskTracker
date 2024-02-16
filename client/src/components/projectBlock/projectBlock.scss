@@ -1,0 +1,49 @@
+.project-border {
+    height: calc(100% - 40px);
+    width: calc(100% - 40px);
+    padding: 20px;
+    background-color: var(--tasktracker-light-purple);
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+    flex-direction: column;
+    cursor: pointer;
+
+    .project-name-text {
+        font-family: "WorkSans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        color: var(--tasktracker-black);
+    }
+
+    .project-description-text {
+        font-family: "WorkSans";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        color: var(--tasktracker-black);
+    }
+
+    .project-owner-details {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        color: var(--tasktracker-black);
+
+        .project-owner {
+            font-family: "WorkSans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+        }
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        margin-right: 10px;
+    }
+}

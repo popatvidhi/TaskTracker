@@ -1,0 +1,11 @@
+.section-project-list {
+    width: 60%;
+    padding: 20px 40px 20px 0;
+}
+
+.project-block {
+    width: 100%;
+    display: flex;
+    // flex-direction: column;
+    flex-wrap: wrap;
+}

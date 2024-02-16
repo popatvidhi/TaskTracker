@@ -1,0 +1,38 @@
+form.add-project-modal {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+
+    .project-owner-details {
+        label {
+            font-family: "WorkSans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            text-transform: uppercase;
+            display: flex;
+            color: var(--tasktracker-light-gray);
+            margin-bottom: 10px;
+        }
+    }
+
+    .project-owner-details {
+        margin: 10px 0;
+        color: var(--tasktracker-black);
+
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 15px;
+            margin-right: 10px;
+        }
+
+        .project-owner {
+            font-family: "WorkSans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+        }
+    }
+
+}

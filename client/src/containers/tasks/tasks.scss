@@ -1,0 +1,27 @@
+.container {
+    background-color: var(--tasktracker-marble-white);
+    height: 100%;
+    min-height: 100vh;
+    padding: 70px 100px;
+
+
+    .tasks-header {
+        display: flex;
+        justify-content: space-between;
+
+        .create-a-tasks {
+            font-family: "WorkSans";
+            font-size: 17px;
+            line-height: 44px;
+            font-weight: bold;
+            color: #fff;
+            cursor: pointer;
+            margin: 20px 0 0 20px;
+            width: fit-content;
+            background-color: rgb(47, 47, 47);
+            padding: 5px 10px;
+            width: 200px;
+            text-align: center;
+        }
+    }
+}

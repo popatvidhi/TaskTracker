@@ -1,0 +1,37 @@
+.textarea-wrapper {
+    position: relative;
+    margin: 10px 0;
+
+    label {
+        font-family: "WorkSans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        text-transform: uppercase;
+        display: flex;
+        color: var(--tasktracker-light-gray);
+        margin-bottom: 10px;
+    }
+
+    textarea {
+        background: var(--tasktracker-white);
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 19px 24px;
+        font-size: 16px;
+        line-height: 18px;
+        font-style: normal;
+        font-family: "WorkSans";
+        width: 100%;
+        cursor: pointer;
+
+        :focus {
+            outline: none;
+        }
+    }
+
+    .error-field {
+        margin-top: 0;
+        color: #cf4545;
+    }
+}

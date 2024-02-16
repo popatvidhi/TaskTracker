@@ -1,0 +1,40 @@
+$orange-hover:rgba(232, 90, 30, .1);
+
+
+.draggable-item {
+    padding: 10px 10px;
+    transition: background-color .8s ease-out;
+    margin-top: 8;
+    border-top: 2px solid transparent;
+
+
+    &:hover {
+        background-color: $orange-hover;
+        transition: background-color .1s ease-in;
+        border-top: 2px solid var(--tasktracker-orange);
+    }
+
+    .task-title {
+        font-family: "WorkSans";
+        font-size: 18px;
+        line-height: 19px;
+        font-weight: 700;
+        color: var(--tasktracker-dark-black);
+        margin-bottom: 10px;
+    }
+
+    .task-description {
+        font-family: "WorkSans";
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 400;
+        letter-spacing: -0.5px;
+        color: var(--tasktracker-light-gray);
+    }
+
+    .profile-image img {
+        width: 50px;
+        height: 50px;
+        margin: 0 0 10px 0;
+    }
+}

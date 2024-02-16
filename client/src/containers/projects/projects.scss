@@ -1,0 +1,52 @@
+.project-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .project-right-options {
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    .edit-icon {
+        cursor: pointer;
+    }
+
+    .view-all-tasks {
+        font-family: "WorkSans";
+        font-size: 17px;
+        line-height: 44px;
+        font-weight: bold;
+        color: #fff;
+        cursor: pointer;
+        margin: 20px 0 0 20px;
+        width: fit-content;
+        background-color: rgb(47, 47, 47);
+        padding: 5px 10px;
+        width: 200px;
+        text-align: center;
+    }
+}
+
+.project-detail-section {
+    display: flex;
+    margin: 50px 0;
+
+    .project-details-section {
+        width: 30%;
+    }
+
+    .project-stats {
+        width: 70%;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+        .statistics-panel {
+            width: 700px;
+            height: 700px;
+        }
+    }
+}

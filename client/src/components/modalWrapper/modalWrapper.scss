@@ -1,0 +1,38 @@
+.modal-container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    backdrop-filter: blur(1px);
+    background-color: rgba(40, 40, 40, 0.75);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .modal-wrapper {
+        width: fit-content;
+        max-width: 90vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 0;
+        object-fit: contain;
+        border-radius: 16px;
+        box-shadow: 0px 0px 20px rgba(170, 167, 178, 0.3);
+        background-color: var(--tasktracker-white);
+        padding: 30px;
+        overflow: hidden;
+        overflow: scroll;
+        height: max-content;
+        max-height: 90vh;
+
+        .modal-close-button {
+            float: right;
+            cursor: pointer;
+        }
+    }
+}

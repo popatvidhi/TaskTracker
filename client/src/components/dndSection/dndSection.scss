@@ -1,0 +1,28 @@
+.dnd-main-area {
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+
+    .dnd-columns {
+        display: flex;
+    }
+
+    button {
+        font-family: "WorkSans";
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 700;
+        margin: 0 40px;
+        display: inline-block;
+        outline: 0;
+        border: 0;
+        cursor: pointer;
+        font-weight: 600;
+        color: var(--tasktracker-white);
+        padding: 20px;
+        border-radius: 50px;
+        background-color: rgb(47, 47, 47);
+        transition: all .2s ease-out;
+
+    }
+}

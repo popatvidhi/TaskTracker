@@ -1,0 +1,77 @@
+// import font and theme used
+@import "./assets/fonts.scss";
+@import "./assets/theme.scss";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.theme-background {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background: url(https://www.open3.co/assets/image/gradient.light.png) right 30vh / 1600px no-repeat;
+}
+
+.container-details {
+  position: relative;
+  z-index: 2;
+}
+
+.theme-background-auth {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  opacity: 0.8;
+  background: url(https://www.open3.co/assets/image/gradient.light.png) right 30vh / 1600px no-repeat;
+  // background-color: #2F2F2F;
+}
+
+.nav-panel {
+  display: flex;
+  justify-content: space-between;
+
+  .logout-nav {
+    padding: 15px 30px;
+    background: rgb(47, 47, 47);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: "WorkSans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+
+.notification-bar {
+  position: fixed;
+  background: rgba(47, 47, 47, 0.8);
+  height: 50px;
+  width: 100%;
+
+  p {
+    font-family: "WorkSans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--tasktracker-marble-white);
+    padding: 0 20px;
+  }
+}
